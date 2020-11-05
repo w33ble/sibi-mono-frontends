@@ -7,6 +7,10 @@
     {
       "source": "/url",
       "destination": "https://url-params-sibi-mono-frontends.vercel.app/"
+    },
+    {
+      "source": "/url/:match",
+      "destination": "https://url-params-sibi-mono-frontends.vercel.app/:match"
     }
   ]
 }
