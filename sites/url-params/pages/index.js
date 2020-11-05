@@ -7,7 +7,7 @@ export default function Home() {
         <title>URL App - Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <p>This is the base path</p>
+      <p>This is the URL base path</p>
     </div>
   )
 }
