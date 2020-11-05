@@ -5,6 +5,10 @@
       "destination": "https://echo-test-sibi-mono-frontends.vercel.app/"
     },
     {
+      "source": "/echo/:match*",
+      "destination": "https://echo-test-sibi-mono-frontends.vercel.app/:match*"
+    },
+    {
       "source": "/url",
       "destination": "https://url-params-sibi-mono-frontends.vercel.app/url/"
     },
