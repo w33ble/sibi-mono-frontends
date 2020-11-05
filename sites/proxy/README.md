@@ -1,0 +1,1 @@
+This is a [Next.js](https://nextjs.org/) project that is a proxy for vercel sites
