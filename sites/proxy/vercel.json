@@ -6,11 +6,11 @@
     },
     {
       "source": "/url",
-      "destination": "https://url-params-sibi-mono-frontends.vercel.app/"
+      "destination": "https://url-params-sibi-mono-frontends.vercel.app/url/"
     },
     {
       "source": "/url/:match*",
-      "destination": "https://url-params-sibi-mono-frontends.vercel.app/:match*"
+      "destination": "https://url-params-sibi-mono-frontends.vercel.app/url/:match*"
     }
   ]
 }
