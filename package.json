@@ -4,5 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "workspaces": ["sites/*", "projects/*"]
+  "workspaces": [
+    "sites/*",
+    "projects/*"
+  ],
+  "dependencies": {}
 }
