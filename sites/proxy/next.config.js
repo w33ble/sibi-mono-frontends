@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: '/url',
-        destination: 'https://url-params-sibi-mono-frontends.vercel.app/url/'
+        destination: 'https://url-params-sibi-mono-frontends.vercel.app/url'
       },
       {
         source: '/url/:path*',
@@ -11,7 +11,7 @@ module.exports = {
       },
       {
         source: '/echo',
-        destination: 'https://echo-test-sibi-mono-frontends.vercel.app/echo/',
+        destination: 'https://echo-test-sibi-mono-frontends.vercel.app/echo',
       },
       {
         source: '/echo/:path*',
