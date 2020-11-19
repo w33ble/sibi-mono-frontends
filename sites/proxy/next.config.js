@@ -2,16 +2,20 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: '/echo',
-        destination: 'https://echo-test-sibi-mono-frontends.vercel.app/'
-      },
-      {
         source: '/url',
         destination: 'https://url-params-sibi-mono-frontends.vercel.app/'
       },
       {
-        source: '/url/:match',
-        destination: 'https://url-params-sibi-mono-frontends.vercel.app/:match'
+        source: '/url/:path*',
+        destination: 'https://url-params-sibi-mono-frontends.vercel.app/:path*'
+      },
+      {
+        source: '/echo',
+        destination: 'https://echo-test-sibi-mono-frontends.vercel.app/',
+      },
+      {
+        source: '/echo/:path*',
+        destination: 'https://echo-test-sibi-mono-frontends.vercel.app/:path*',
       },
     ]
   },

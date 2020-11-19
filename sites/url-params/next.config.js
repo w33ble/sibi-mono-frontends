@@ -1,3 +1,3 @@
 module.exports = {
-  assetPrefix: '/url',
+  basePath: process.env.NODE_ENV === 'production' ? '/url' : '',
 }

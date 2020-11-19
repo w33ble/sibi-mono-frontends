@@ -1,3 +1,3 @@
 module.exports = {
-  assetPrefix: '/echo',
+  basePath: process.env.NODE_ENV === 'production' ? '/echo' : '',
 }
