@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/echo(.*)",
-      "destination": "https://echo-test-sibi-mono-frontends.vercel.app$1"
+      "destination": "https://echo-test-sibi-mono-frontends.vercel.app/echo$1"
     },
     {
       "source": "/url(.*)",
-      "destination": "https://url-params-sibi-mono-frontends.vercel.app$1"
+      "destination": "https://url-params-sibi-mono-frontends.vercel.app/url$1"
     }
   ]
 }
